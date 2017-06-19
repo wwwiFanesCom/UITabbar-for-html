@@ -4,10 +4,16 @@
 
 用法：
 引用
+
+
 <script src="src/js/jquery.min.js"></script>
 
+
 <script src="src/js/tabbar.js"></script>
+
+
 这两个JS
+
 
 在你的手机页面上面增加一个DIV 
 比如：
@@ -17,10 +23,18 @@
 之后调用方法
 
 <script>
+
+
     $(document).ready(function() {
+    
+    
 
         $(".end").tabbar({bar_seleced_title : '首页'});
+        
+        
     });
+    
+    
 </script>
 
 
