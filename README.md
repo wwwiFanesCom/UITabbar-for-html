@@ -5,14 +5,17 @@
 用法：
 引用
 <script src="src/js/jquery.min.js"></script>
+
 <script src="src/js/tabbar.js"></script>
 这两个JS
 
 在你的手机页面上面增加一个DIV 
 比如：
+
 <div class="end"></div>
 
 之后调用方法
+
 <script>
     $(document).ready(function() {
 
@@ -20,8 +23,11 @@
     });
 </script>
 
+
 另外：
+
 可选参数
+
 bar_title: ['首页','消息','我的']  //导航的名称
 
 
@@ -42,6 +48,12 @@ bar_color:'rgba(51,51,51,1)'//导航字体的颜色
 bar_seleced_color:'rgba(38,204,233,1)'//导航选中后的字体颜色
 
 
+
+
+
+
 插件效果预览图：
+
+
  ![image](https://raw.githubusercontent.com/wwwiFanesCom/UITabbar-for-html/master/images/demo.png)
 
