@@ -22,12 +22,26 @@
 
 另外：
 可选参数
-bar_title: ['首页','消息','我的'],  //导航的名称
-bar_url: ['index.html','message.html','my.html'], //导航跳转的url
-bar_ico: ['images/tabbar01.png','images/tabbar02.png','images/tabbar03.png'], //导航的默认图片
-bar_selected_ico: ['images/tabbar-selected01.png','images/tabbar-selected02.png','images/tabbar-selected03.png'], //导航选中状态的图片
-bar_seleced_title:'首页', // 被选中的导航名称
-bar_color:'rgba(51,51,51,1)',//导航字体的颜色
+bar_title: ['首页','消息','我的']  //导航的名称
+
+
+bar_url: ['index.html','message.html','my.html'] //导航跳转的url
+
+
+bar_ico: ['images/tabbar01.png','images/tabbar02.png','images/tabbar03.png']//导航的默认图片
+
+
+bar_selected_ico: ['images/tabbar-selected01.png','images/tabbar-selected02.png','images/tabbar-selected03.png'] //导航选中状态的图片
+
+
+bar_seleced_title:'首页' // 被选中的导航名称
+
+bar_color:'rgba(51,51,51,1)'//导航字体的颜色
+
+
 bar_seleced_color:'rgba(38,204,233,1)'//导航选中后的字体颜色
 
-预览图：https://raw.githubusercontent.com/wwwiFanesCom/UITabbar-for-html/master/images/demo.png
+
+插件效果预览图：
+ ![image](https://raw.githubusercontent.com/wwwiFanesCom/UITabbar-for-html/master/images/demo.png)
+
