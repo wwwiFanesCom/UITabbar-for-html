@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+<body>
+
+<div class="content">
+
+首页
+
+</div>
+
+<div class="end">
+
+</div>
+<!-----------------------弹窗,蒙层------------------------->
+
+<div id="popupMarks" class="f-popup-msg-mask"></div>
+
+<!-----------------------弹窗,蒙层------------------------->
+<script src="src/js/jquery.min.js"></script>
+<script src="src/js/tabbar.js"></script>
+
+<script>
+    !(function(doc, win) {
+        var docEle = doc.documentElement,
+                evt = "onorientationchange" in window ? "orientationchange" : "resize",
+                fn = function() {
+                    var width = docEle.clientWidth;
+                    width && (docEle.style.fontSize = (width / 7.5) + "px");
+                },
+                fn1 = function() {
+                    setTimeout(function() {
+                        var width = docEle.clientWidth;
+                        width && (docEle.style.fontSize = (width / 7.5) + "px");
+                    }, 300);
+                };
+        win.addEventListener(evt, fn1, false);
+        doc.addEventListener("DOMContentLoaded", fn, false);
+    }(document, window));
+</script>
+<script>
+
+    $(document).ready(function() {
+
+        $(".end").tabbar({bar_seleced_title : '首页'});
+    });
+
+</script>
+</body>
+
+</html>
